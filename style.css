@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.navbar{
+    width: 100vw;
+    height:10vh;
+    display: flex;
+    background-color: brown;
+  text-align: center;
+  
+}
+.navbar .logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: bold; 
+    padding-right: 70vw;
+
+}
+.navbar ul  {
+    display: flex;
+   list-style: none;
+   text-align: center;
+}
+.navbar li{
+    display: flex;
+    text-align: center;
+}
+.navbar a{
+  margin: 10px;
+  padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: black;
+    color: rgb(229, 77, 11);
+    border-radius: 3px;
+}
+.contain{
+    margin:0px;
+    padding: 0%;
+    display:flex;
+    width: 100vw;
+    font: 1em sans-serif;
+    color: brown;
+}
+.image{
+    width:40vw;
+    float: left;
+  margin-left:30px;
+  margin-top: 10px;
+}
+.image img{
+    width:200px;
+    height:200px
+   
+    
+}
+.class{
+    color: red;
+font-size: 4rem;
+text-align: center ;
+font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+     margin: 20px;
+     padding: auto;
+     text-shadow: 2px 3px rgb(198, 174, 174);
+}
+
+.item{
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    font-size: 2rem;
+    margin-top: 3vh;
+    padding: 10px;
+    text-align: justify;
+}
+.footer{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(160, 16, 49);
+}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        height:6vh;
+    }
+    .navbar a{
+  margin: 5px;
+  padding: 1px;
+    font-size: 1rem;
+    text-align: right;
+   
+}
+.navbar li{
+    display: flex;
+    text-align: center;
+}
+   .navbar .logo {
+    font-size: 2rem;
+    color: blue;
+    padding-right: 35vw;
+
+}
+.class{
+    font-size: 2rem;
+}
+.image img{
+    width:150px;
+    height:150px
+}
+.class{
+margin: 10px;
+     padding: auto;
+}
+.item{
+   
+    font-size: 1.2rem;
+
+}
+  }
