@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Blood Request Template</title>
+  <link rel="stylesheet" href="../css/patientrequest.css">
+</head>
+
+<body>
+  <header>
+    <h1>Blood Request</h1>
+  </header>
+
+  <main>
+    <form action="" method="POST" enctype="multipart/form-data">
+      <div class="request-info">
+        <label for="patient-name">Patient Name:</label>
+        <input type="text" id="patient-name" name="patient-name" required>
+      </div>
+      <div class="request-info">
+        <label for="phone">Phone number:</label>
+        <input type="text" id="phone" name="phone" required>
+      </div>
+      <div class="request-info">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+      </div>
+      
+      <div class="request-info">
+        <label for="blood-type">Blood Type:</label>
+        <select id="blood-type" name="blood-type" required>
+          <option value="">Select Blood Type</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+        </select>
+      </div>
+      <div class="request-info">
+        <label for="required-unit">Required unit:</label>
+        <input type="text" id="required-unit" name="required-unit" required>
+      </div>
+      <div class="request-info">
+        <label for="hospital">Hospital:</label>
+        <input type="text" id="hospital" name="hospital" required>
+      </div>
+      <div class="request-info">
+        <label for="doctor-name">Doctor Name:</label>
+        <input type="text" id="doctor-name" name="doctor-name" required>
+      </div>
+      <div class="request-info">
+        <label for="prescription">Doctor's Prescription:</label>
+        <input type="file" id="prescription" name="prescription" accept="image/*" required>
+      </div>
+      <input type="submit" value="Submit Request">
+    </form>
+  </main>
+</body>
+
+</html>
