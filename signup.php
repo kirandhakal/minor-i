@@ -1,7 +1,4 @@
  <?php  include('config/constants.php')?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,16 +25,8 @@
               echo $_SESSION['username-not-available'];//displaying signup message
               unset($_SESSION['username-not-available']);//remove session message
             }
-
-            
-
-
-
          ?>
-   
-
-
-
+  
       <form method="POST">
         
          <label for="fullname">Enter Fullname : </label><br>
@@ -136,11 +125,6 @@
          }
          
       }
-
-
-
-
-
 
    ?>
 
